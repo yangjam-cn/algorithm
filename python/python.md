@@ -11,7 +11,8 @@
 # python算法
 ## 计数初步
 ### 求和式
-* 数学符号与求和  
+* 数学符号与求和
+  
   $x*sum(S) == sum(x*y\ for\ y\ in\ S) ==> x\sum_{y\in S}y=\sum_{y\in S}xy$
   
   $\sum_{i=m}^{n}f(i)==>sum(f(i)\ for\ i\ in\ range(m,\ n+1))$
