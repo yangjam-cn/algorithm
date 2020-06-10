@@ -1,0 +1,39 @@
+%hello tex
+% 文档选项:article, book, report, letter
+% 草稿定稿：draft(草稿，页面溢出会出现粗黑条)，final(定稿)
+% 单面双面：oneside(article,report默认，页码在右边)，twoside(book默认)
+% 新章开始：（book有效）openright,每章从奇数页开始；openany，新章从新页开始
+\documentclass[UTF8]{ctexart}
+\usepackage{hyperref}
+\begin{document}
+    Hello World!
+    \\中文内容测试！
+    \begin{itemize}
+        \item 无编号列表
+        \item 带编号列表
+        \item 带标签列表
+    \end{itemize}
+    \begin{enumerate}
+        \item 无编号列表
+        \item 带编号列表
+        \item 带标签列表
+    \end{enumerate}
+    \begin{description}
+        \item[无序列表] 无编号列表
+        \item[有序列表] 带编号列表
+        \item[描述列表] 带标签列表   
+    \end{description}
+\clearpage
+\title{基于人脸识别的实验室身份验证系统设计}
+\author{杨剑}
+\maketitle
+\begin{abstract}
+    [摘要]这是论文摘要
+\end{abstract}
+\part{部分标题}
+\section{节标题}
+\subsection{小节标题}
+\subsubsection{子节标题}
+\paragraph{段标题}
+\subparagraph{小段标题}
+\end{document}
