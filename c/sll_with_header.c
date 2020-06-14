@@ -5,8 +5,9 @@
  * @Author: yangjam
  * @Version: 1.0
  * @Date: 2020-06-14 15:17:41
- * @History: 修改历史列表，每条修改记录应包括修改日期、修改者及修改内容简述
- * @LastEditTime: 2020-06-14 17:16:12
+ * @History: 
+ * 06-14 ：修改delete_node()删除结点后，链表长度记录没有自减的错误
+ * @LastEditTime: 2020-06-14 21:12:30
  */ 
 #include <stdio.h>
 #include <stdlib.h>
@@ -166,6 +167,7 @@ void delete_node(ptr_sll header, int location)
             ptr_sll tmp = loc->next;
             loc->next = tmp->next;
             free(tmp);
+            header->element--;    /* 删除后，链表长度减1 */
         }
     }
 }
