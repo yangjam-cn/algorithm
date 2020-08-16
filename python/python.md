@@ -6,20 +6,13 @@
  * @Version: 
  * @Date: 2020-06-09 16:51:47
  * @History: 修改历史列表，每条修改记录应包括修改日期、修改者及修改内容简述
- * @LastEditTime: 2020-06-10 16:37:37
+ * @LastEditTime: 2020-06-12 22:03:56
 --> 
 # python算法
 ## 计数初步
 ### 求和式
-<<<<<<< HEAD
 * 数学符号与求和  
   x\*sum(S) == sum(x\*y for y in S) ==> $x\sum_{y \in S}y=\sum_{y \in S}xy$  
-=======
-* 数学符号与求和
-  
-  x*sum(S) == sum(x*y for y in S) ==> $x\sum_{y\in S}y=\sum_{y\in S}xy$
-  
->>>>>>> 8d0cad79e4ab1171dcaf70b1aa61afae3d17e0ee
   $\sum_{i=m}^{n}f(i)==>sum(f(i)\ for\ i\ in\ range(m,\ n+1))$
 * 两种求和  
 $\sum_{i=0}^{n-1}i=\frac{n(n-1)}{2}$  
