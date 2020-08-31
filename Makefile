@@ -2,6 +2,10 @@ input ?= $(obj)
 commit = $(msg)
 suf = $(suffix $(input))
 object = $(basename $(input))
+
+inc = W:/vcpkg-master/packages/opencv4_x64-windows/include/
+lib = W:/vcpkg-master/packages/opencv4_x64-windows/lib/
+
 cc = gcc
 ifeq ($(suf), .cpp)
 	cc = g++
