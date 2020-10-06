@@ -1,0 +1,6 @@
+obj = main.c
+test: $(obj)
+	g++ $^ -o $@
+.PHONY: clean
+clean:
+	del test && cls

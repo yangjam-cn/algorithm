@@ -1,0 +1,8 @@
+obj = src/main.cpp
+
+inc = inc
+test: $(obj)
+	g++ $^ -I$(inc) -o $@
+.PHONY: clean
+clean:
+	del test.exe && cls
